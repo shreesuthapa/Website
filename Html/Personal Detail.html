@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <!--title tag creates title of the webpage-->
+            <title> Blog </title>
+            <!--External CSS is used-->
+            <link rel="stylesheet" type="text/css" href="../css/style.css">
+        </head>
+<body>
+    <!--div tag is used to create division-->
+    <div class="container">
+        <h1>Welcome to My Website.</h1>
+        <h1 id="displaydate"></h1><br>
+             <!--nav tag is used to create navigation-->
+            <nav>
+                <!--table tag is used to create table-->
+                <table style ="padding-top:5px;">
+                    <tr>
+                        <th>
+                            <!--href is used for hyperlink in webpage-->
+                            <a href="../Homepage.html">Home</a>
+                        </th>	
+                        <th>	
+                            <a href ="CV.html">CV</a>
+                        </th>
+                        <th>
+                            <a href ="Blog.html">Blog</a>
+                        </th>
+                        <th>
+                            <a href ="Research.html">Research</a>
+                        </th>
+                        <th>
+                            <a href ="Form.html">Form</a>
+                        </th>
+                        <th>
+                            <a href ="Contact Detail.html">Personal Detail</a>
+                        </th>
+                    </tr>
+            </nav>
+        </table>
+    </div>	
+    <!--Internal Java Script is used-->
+    <script type="text/javascript">
+    //var key word is used for declaring variables.
+        var n1= Number(prompt("Enter your name"));
+        var n2= Number(prompt("Enter your Email"));
+        var n3= Number(prompt("Enter your Phone Number"));
+        document.write(n1);
+        document.write(n2);
+        document.write(n3);
+        //function view() is called.
+        function view()
+        {
+            var element= document.getElementById("interest");
+            element.innerHTML="I am universe lover.";
+            element.style.color = "violet";
+        }
+    </script>
+    <div class="detail">
+        <!--Inline CSS used-->
+    <h1 style="color: blue;">Personal Details:</h1>
+    <h2>Name: Shreesu</h2>
+    <h2>Last Name: Thapa</h2>
+    <h2>Date of Birth: 2002-05-26</h2>
+    <h2>Father Name: ShreeRam Thapa</h2>
+    <h2>Mother Name: Subhadra Thapa</h2>
+    <h2>Age: 19yrs-old</h2>
+    <h2>Gender: Female</h2>
+    <h2>Occupation: Student</h2>
+    <h2>Phone No:9810224545</h2>
+    <h2>Email: tshreesu@gmail.com</h2>
+    <h2>Social Media:</h2>
+        <p>Click on the Facebook Icon.</p>
+        <a href="https://www.facebook.com/shreesu.thapa">
+            <!--img src is used to add image in the webpage-->
+            <img src="../images/facebook.png" alt="Facebook" style="width:42px;height:42px;">
+        </a><br>
+        <p>Click on Instagram Icon</p>
+        <a href="https://www.instagram.com/shreesuthapa_/">
+            <img src="../images/instagram.jpg" alt="Instagram" style="width:42px;height:42px;">
+        </a>
+    <h2 id="interest">About my Interest</h2>
+     <!--button tag creates button in the webpage-->
+     <button onclick="view()">Click</button>
+        <h3>The sky is not the limit. Beyond the universe is.. This quote basically describes my love for universe. 
+         I really enjoy watching sunset, sunrise, moon, stars, clouds and everything that we get to see while we are
+         in terrace. I have some photos and videos that I would love to share.</h3>
+        <img src="../images/me.jpg" width="50%" height="50%">
+        <p>Hehe that's me. Basically enjoying sunset view.</p>
+        <!--video tag is used to add video in the webpage-->
+        <video width="500" controls>
+            <source src="../images/video1.mp4" type="video/mp4">   
+        </video>
+        <p>Using my dog as a prop to click some sunset view.</p>
+        <!--video tag is used to add video in the webpage-->
+        <video width="500" controls>
+            <source src="../images/clouds.mp4" type="video/mp4">   
+        </video>
+        <p>I captured this when the clouds were scattered like cottoncandy.</p>
+        <h3>Thankyou for visiting my personal detail!</h3>
+    </div>   
+    <!--External javascript is used--> 
+    <script src="../js/main.js"></script>
+</body>
+</html>    

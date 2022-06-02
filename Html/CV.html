@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta tag name="about" content="Cv">
+    <meta tag name="author" content="Shreesu Thapa">
+    <!--title tag creates title of the webpage-->
+    <title> CV </title>
+    <!--External CSS-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+     <!--Internal Java Script-->
+    <script type="text/javascript">
+    //alert key word is used to display the message in webpage.
+        alert("Hello Visitors, Thankyou for visiting my CV webpage. I hope you like it!")
+        
+    </script>
+</head>
+<!--Internal CSS is used-->
+<style>
+    .flex{
+        display: flex;
+    }
+    .leftarea
+    {
+        text-align: left;
+        flex:30%;
+    }
+    .rightarea
+    {
+        flex:70%
+    }
+</style>
+<body> 
+    <!--div tag is used to create division-->
+    <div class="container">
+        <h1>Welcome to My Website.</h1>
+        <h1 id="displaydate"></h1><br>
+        <!--nav tag is used to create navigation-->
+            <nav>
+                <!--table tag is used to create table-->
+                <table style ="padding-top:5px;">
+                    <tr>
+                        <th>
+                            <!--href is used for hyperlink in webpage-->
+                            <a href="../Homepage.html">Home</a>
+                        </th>	
+                        <th>	
+                            <a href ="CV.html">CV</a>
+                        </th>
+                        <th>
+                            <a href ="Blog.html">Blog</a>
+                        </th>
+                        <th>
+                            <a href ="Research.html">Research</a>
+                        </th>
+                        <th>
+                            <a href ="Form.html">Form</a>
+                        </th>
+                        <th>
+                            <a href ="Personal Detail.html">Personal Detail</a>
+                        </th>
+                    </tr>
+                </table>
+            </nav>
+    </div>	
+    <!--div tag is used to create division-->
+    <div class="flex">
+        <div class="leftarea">
+            <!--Header tag is used-->
+            <header class="CV">
+                <h1 style="color:green">Shreesu Thapa</h1>
+                <img src="../images/Mypic.jpg" width="100%" height="100%">
+            </header> 
+            <!--div tag is used to create division-->
+            <div class="contact"> 
+                <h4><b>CONTACT</b></h4>
+                <h5>Phone</h5>
+                <p>9810224545</p>
+                <h5>Email</h5>
+                <p>tshreesu@gmail.com</p>
+                <h5>Address</h5>
+                <p>Thikhidewal,Lalitpur</p>
+                <h2>Social Media:</h2>
+                <p>Click on the Icons</p>
+                <a href="https://www.facebook.com/shreesu.thapa">
+                    <!--img src is used to add image in the webpage-->
+                    <img src="../images/facebook.png" alt="Facebook" style="width:42px;height:42px;">
+                </a><br><br>
+                <a href="https://www.instagram.com/shreesuthapa_/">
+                    <img src="../images/instagram.jpg" alt="Instagram" style="width:42px;height:42px;">
+                </a>
+            </div>  
+        </div>	
+        <!--div tag is used to create division-->
+        <div class="right-area">
+            <h2><img src="../images/aboutme.png" width="5%" height="5%">About Me</h2>
+                <p>I am a student who is pursuing BIT(hons) in Computing at Islington College located at Kamalphokari. I am Currently
+                    at first semister. I have a keen interest in Computer Science and technological field.</p><br>
+            <h2><img src="../images/skill.png" width="5%" height="5%">SKILLS</h2>
+                <p>1. Programming Knowledge about Java.</p><br>
+                <p>2. Knows how to implement Database in mysql.</p><br>
+                <p>3. Has knowledge about website designing.</p><br>
+            <h2><img src="../images/education.png" width="5%" height="5%">Education</h2>
+                <h3>Islington College</h3>
+                <p>Currently pursuing BIT(hons)Computing 1st year.</p>
+                <h3>Prasadi Academy</h3>
+                <p>Completed +2 in Science.</p>
+                <p><b>2017-2019</b></p>
+                <h3>LMV</h3>
+                <p>Completed SEE.</p>
+                <p><b>2016</b></p>
+            <h2><img src="../images/hobbies.jpg" width="5%" height="5%">Hobbies<h2>
+                    <h3>Completed two running marathon race (Because I am a girl Campaign 2015 and 10th Marathon 2016)</h3>
+                    <h3> Singing, exploring, trying out new things.</h3>
+        </div>  
+    </div>
+    <!--External javascript is used-->
+    <script src="../js/main.js"></script>        
+</body>
+</html>

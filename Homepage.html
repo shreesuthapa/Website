@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+	<html>
+    	<head>
+			<!--meta tag is used in a webpage which cannot be seen by the viewers but is present in the webpage.-->
+			<meta tag name="about" content="homepage">
+			<meta tag name ="keywords" content="Home,CV,Blog,Research,Form">
+			<meta tag name="author" content="Shreesu Thapa">
+			<!--External CSS is used-->
+			<link rel="stylesheet" type="text/css" href=".\css\style.css">
+			<!--title tag creates title of the webpage-->
+			<title> Home Page </title>  
+   		 </head>
+			<!--Internal CSS used-->
+			<style type="text/css">
+			.img{
+				width: 50%;
+				height: 50%;
+			}
+			.hide
+			{
+				display: none;
+			}
+			</style>
+			<body>
+				<!--div tag is used to create division-->
+				<div class="container">
+					<h1>Welcome to My Website.</h1>
+					<h1 id="displaydate"></h1><br>
+					<!--nav tag is used to create navigation-->
+						<nav>
+							<!--table tag is used to create table-->
+							<table style ="padding-top:5px;">
+								<tr>
+									<th>
+										<!--href is used for hyperlink in webpage-->
+										<a href="Homepage.html">Home</a>
+									</th>	
+									<th>	
+										<a href ="./Html/CV.html">CV</a>
+									</th>
+									<th>
+										<a href ="./Html/Blog.html">Blog</a>
+									</th>
+									<th>
+										<a href ="./Html/Research.html">Research</a>
+									</th>
+									<th>
+										<a href ="./Html/Form.html">Form</a>
+									</th>
+									<th>
+										<a href ="./Html/Personal Detail.html">Personal Detail</a>
+									</th>
+								</tr>
+						</nav>
+					</table>
+				</div>	
+				<!--header tag is used to define header part of the webpage.-->
+					<header>
+						<h1>Hello,</h1>
+						<h1>I am Shreesu Thapa</h1>	
+						<h2>The Website is created using Html, CSS and Java Script.</h2>
+						<h3>You can click on the toggle button to toggle the picture.</h3>
+					</header>	
+					<!--div tag is used to create division-->
+					<div id="figure">
+						<!--img src is used to add image in the webpage-->
+						<img src=".\images\2img.jpeg" class="img hide" id="1">
+						<img src=".\images\1img.png" class="img hide" id="2"><br>
+						<!--button tag creates button in the webpage-->
+						<button onclick="toggle()">Toggle</button><br><br>
+				<!--External javascript is used-->
+				<script src=".\js\main.js"></script>
+				<!--Footer tag is used to define footer part of the webpage.-->
+				<footer style="text-align: right; font-weight: bolder; font-size: larger;">
+					&copy; Copyright 2021
+				</footer><br><br>
+			</body>
+	</html>
+	

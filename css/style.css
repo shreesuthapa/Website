@@ -1,0 +1,106 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+    margin:10px;
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 100%; 
+}
+/*container class is called*/
+.container{
+    background-color: black;
+    color:whitesmoke;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+/*rightarea class is called*/
+.rightarea{
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+}
+/*header section is called*/
+header{
+    background-color: green;
+    color:black;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+/*nav tag is called for a*/
+nav a{
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid; 
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase; 
+    text-align: center;
+}
+/*nav tag is used to hover*/
+nav :hover {
+    color: red;
+}
+/*topic id is called*/
+#topic{
+    background-color: hotpink;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*blog class is called*/
+.blog{
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    background-color: lightcyan;
+    color: black;
+}
+/*CV class is called*/
+.CV{
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    background-color:goldenrod;
+}
+/*contact class is called*/
+.contact{
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: gray;
+}
+/*right-area class is called*/
+.right-area{
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+/*detail class is called*/
+.detail{
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    padding:10px;
+}
+/*research class is called for h1*/
+.research h1{
+    text-align: center;
+    color: blue;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightsteelblue;
+}
+/*research class is called for p*/
+.research p{
+    padding: 10px;
+    color: rgb(165, 67, 42);
+    font-weight: bold;
+}

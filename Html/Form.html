@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--title tag creates title of the webpage-->
+        <title>Form Validation</title>
+        <!--External CSS is used-->
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+    </head>
+    <body>
+        <!--div tag is used to create division-->
+        <div class="container">
+            <h1>Welcome to My Website.</h1>
+            <h1 id="displaydate"></h1><br>
+            <!--nav tag is used to create navigation-->
+                <nav>
+                    <!--table tag is used to create table-->
+                    <table style ="padding-top:5px;">
+                        <tr>
+                            <th>
+                                <!--href is used for hyperlink in webpage-->
+                                <a href="../Homepage.html">Home</a>
+                            </th>	
+                            <th>	
+                                <a href ="CV.html">CV</a>
+                            </th>
+                            <th>
+                                <a href ="Blog.html">Blog</a>
+                            </th>
+                            <th>
+                                <a href ="Research.html">Research</a>
+                            </th>
+                            <th>
+                                <a href ="Form.html">Form</a>
+                            </th>
+                            <th>
+                                <a href ="Personal Detail.html">Personal Detail</a>
+                            </th>
+                        </tr>
+                </nav>
+            </table>
+        </div>
+        <!--Internal CSS is used-->	
+        <style>
+            body{
+                background-color: bisque;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+            }
+        </style>
+        <h1 style="color: green;">Form Validation</h1>
+    <form name="validationform" onsubmit="validation()">
+        <b>First Name:</b><input type="text" name="fname"><br><br>
+        <b>Last Name:</b><input type="text" name="lname"><br><br>
+        <b>Gender:</b><input type="radio" name="gender" value="male">Male
+               <input type="radio" name="gender" value="female" checked>Female<br><br>
+        <b>Message:</b><br>
+        <textarea name="message" placeholder="enter message" cols="40"
+        rows="20"></textarea><br>
+        <input type="submit" name="" value="send message"><br><br>
+    </form>
+    <!--External javascript is used-->
+    <script src="../js/main.js"></script>
+    </body>
+</html>

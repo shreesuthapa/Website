@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <!--title tag creates title of the webpage-->
+            <title> Blog </title>
+            <!--External CSS is used-->
+            <link rel="stylesheet" type="text/css" href="../css/style.css">
+        </head>
+<body>
+    <!--div tag is used to create division-->
+    <div class="container">
+        <h1>Welcome to My Website.</h1>
+        <h1 id="displaydate"></h1><br>
+        <!--nav tag is used to create navigation-->
+            <nav>
+                <!--table tag is used to create table-->
+                <table style ="padding-top:5px;">
+                    <tr>
+                        <th>
+                            <!--href is used for hyperlink in webpage-->
+                            <a href="../Homepage.html">Home</a>
+                        </th>	
+                        <th>	
+                            <a href ="CV.html">CV</a>
+                        </th>
+                        <th>
+                            <a href ="Blog.html">Blog</a>
+                        </th>
+                        <th>
+                            <a href ="Research.html">Research</a>
+                        </th>
+                        <th>
+                            <a href ="Form.html">Form</a>
+                        </th>
+                        <th>
+                            <a href ="Personal Detail.html">Personal Detail</a>
+                        </th>
+                    </tr>
+            </nav>
+        </table>
+    </div>	
+    <h1 id="topic">Impact of Internet in our daily lives.</h1>
+    <!--button tag creates button in the webpage-->
+    <button onclick="change()">Change Style</button>
+    <!--Internal Javascript used-->
+    <script type="text/javascript">
+    //function change() is called
+        function change()
+        {
+            var element= document.getElementById("topic");
+            element.innerHTML="How Internet has influenced people.";
+            element.style.color = "blue";
+        }
+    </script>
+    <!--div tag is used to create division-->
+    <div class="blog">
+        <!--paragraph tag is used to create paragraphs-->
+        <p>The internet domains many aspects of our daily lives. Internet has been addiction to many students as well as their parents.
+            The growth in different technologies causes the psychological, social, educational, occupational problems. Internet are recommended by 
+            educational sector for researching about different topic, to gain extra knowledge as Internet is a vas resource that covers every sector.
+            We can research about any topic by the help of Internet, as many users use the term Internet surfing. The social media influence in students is
+            real, they are so much addicted in Instagrams, Facebook, Tiktok and games like Pubg, Freefire, Candy Crush, and many more which are all
+            played online. <br><br>
+            Internet addiction has been accompanied by major problems such as the drop in grades, reduce interest in educational field, anxiety,
+            communication gap, and many small issues are created because of students being addicted to Internet or more likely social medias and online games.
+            The excessive use of internet also has impact in physical and mental state of students. The research has proved that students doesn't seem 
+            interested in playing or roaming  around outside the house, they enjoy sitting in a chair for hours and enjoy playing games, surfing in Internet,
+            and in social medias. This creates a mental trauma and physical damage in different body parts. The physical exercise by roaming around and 
+            inhaling fresh air is not possible by sitting in room, this also creates lack of social life students are lacking communication skills and they
+            are not being able to digest the real world problems. They enjoy chatting rather than speaking in person. These issues have been addressed 
+            by many parents and teachers. The internet has a huge impact on students lives. However, if they can manage then Internet has huge merits 
+            in our daily lives. <br><br>
+            Being a student, moreover being a technological field students thinking practically I have acknowledge the use of Internet more that
+            its demerits. The impact of Internet not only counts students wasting their time in social medias, playing video games, surfing YouTube 
+            but also take a look on the beautiful intelligence created by many technologist. The greatest  invention Artificial  Intelligence the first 
+            AI Robert Sofia. The creations are beautiful even the social medias have made the world narrower, we can communicate with our loved ones, 
+            face time with them, in this crucial  time due to Coronavirus we have been spending time surfing Internet talking with our loved ones.<br><br>
+        <h2>Internet: During Coronavirus</h2>
+            Internet has been very beneficial during this pandemic situation. We are all aware about the crucial situation we all have been going throught.
+            The whole nation is under lockdown and there is no any validation on when everything will be back to normal. During this pandemic
+            situation everything has been dependent on Internet, the online education, online business and work from home is all possible because of Internet.
+            Life would have been different if there was no Internet. Atleast, student are involved in online education than not being able to study.
+            The relatives are in contact with each other via social medias that all comes under use of Internet. Therefore, Internet has been beneficial during 
+            this pandemic time.
+        </p>  
+    </div>
+    <!--External javascript is used-->
+    <script src="../js/main.js"></script>
+</body>
+</html>
